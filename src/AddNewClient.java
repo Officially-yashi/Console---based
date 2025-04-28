@@ -6,10 +6,10 @@ public class AddNewClient implements Operation
 {
     public void operation(DressDAO database, Scanner sc,User user)
     {   
-        System.out.println("Etner the client id:");
+        System.out.println("Enter the client id:");
         int id=sc.nextInt();
         sc.nextLine();
-        System.out.println("Etner the first name:");
+        System.out.println("Enter the first name:");
         String firstname=sc.next();
 		System.out.println("Enter the last name:");
 		String lastname=sc.next();
