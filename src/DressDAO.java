@@ -7,7 +7,7 @@ import java.sql.Statement;
 public class DressDAO {
 		
 		private String user="root";
-		private String password="Yashi@6420";
+		private String password="Yooo";
 		private String url="jdbc:mysql://localhost:3306/showoffcollection";
         private Connection connection;
         private Statement statement;
